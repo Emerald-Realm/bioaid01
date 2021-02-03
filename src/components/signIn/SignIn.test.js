@@ -1,7 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import { faItalic } from '@fortawesome/free-solid-svg-icons'
 import SignIn from './SignIn'
 
 describe('Sign in component', () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import {  BrowserRouter as Router,Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "../../Styles/style.css";
 
 function Footer() {
@@ -11,12 +11,12 @@ function Footer() {
         <p className="aid">Aid </p>
         &copy; 2021
       </footer>
-      <Router>
+      {/* <Router> */}
 
       <Link to='/disclaimer' className='link-two'>
         Click here to see disclaimer
       </Link>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }

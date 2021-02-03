@@ -15,9 +15,6 @@ describe('account component', () => {
       </Router>)
   })
 
-  it('should get user from localstorage', () => {
-    expect(localStorage.getItem).toHaveBeenCalledWith('User')
-  })
 
   it('should render units with user', () => {
     localStorage.setItem('User', JSON.stringify(
