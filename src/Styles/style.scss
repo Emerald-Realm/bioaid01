@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    // font-family:  Arial, Helvetica, sans-serif;
+    border: none;
+    text-decoration: none;
+    font-family: Inconsolata, monospace;
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url('./Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf');
+  }
+
+$primaryColor :  #46E0A8;
+// $primaryColor :  rgb(0, 174, 255);
+// $secondaryColor :  rgb(255, 132, 0);
+$secondaryColor :  #E03812;
+// $linkColor :  rgb(0, 127, 186);
+$linkColor :  #25795a;
+// $linkColor :  #1F946A;
+$activeColor :  #E06246;
+
+@import './Header';
+@import './Mobile';
+@import './Desktop';

@@ -1,0 +1,113 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    * {
+        font-size: 16px;
+    }
+
+  // Home  //
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+    .big-logo {
+      width: 30vw;
+      margin: 0px;
+    }
+
+    .context {
+      .motto {
+        margin: 0vw 0vw 2vw 0vw;
+      }
+
+      .motto-one {
+        font-size: 40px;
+        margin: 1vw 0vw;
+      }
+
+      .motto-two {
+        font-size: 24px;
+        margin: 1vw 0vw;
+      }
+
+      .motto-three {
+        font-size: 24px;
+        margin-bottom: 3vw;
+      }
+
+      .start-btn {
+        margin: 5vw 0vw;
+      }
+    }
+
+    .pass {
+      margin-top: 3vw;
+    }
+  }
+
+  // Account //
+
+  .acct-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    padding: 2rem;
+    .logo-img {
+      width: 30vw;
+      margin: 0px;
+    }
+
+    .accnt {
+      margin: 2vw 0vw;
+    }
+  }
+}
+
+// Certificate //
+.guest {
+  margin: 1vw;
+  text-align: center;
+}
+
+.guest-talk {
+  margin: 1rem 0px;
+}
+
+// Sign in //
+
+.sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  .logo-img{
+      width: 30vw;
+      margin: 0px;
+  }
+  .content{
+      display: block;
+      border-left: $linkColor 2px solid;
+  }
+}
+
+
+// sign up //
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vw;
+    padding: 2rem;
+    .logo-img{
+        width: 30vw;
+        margin: 0px;
+    }
+    .signup-form {
+        margin: 0px;
+        width: 80%;
+    }
+}
