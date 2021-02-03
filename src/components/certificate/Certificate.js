@@ -2,7 +2,6 @@ import React from 'react'
 import Big from '../../images/bioaidlogo.svg'
 import { Link } from 'react-router-dom'
 
-const user = JSON.parse(localStorage.getItem('User'))
 const date = new Date()
 
 function Certificate(props) {

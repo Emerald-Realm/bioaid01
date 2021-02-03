@@ -1,20 +1,13 @@
 import React from "react";
 import {
-  Image,
-  Video,
-  Transformation,
-  CloudinaryContext,
+  Image
 } from "cloudinary-react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../Styles/style.css";
 
 function Home() {
   return (
     <div>
-      {/* <Transformation effect="contrast:0" radius="10" />
-          <Transformation effect="improve" gravity="north" height="230" radius="max" width="200" crop="fill" />
-          <Transformation effect="shadow" quality="50" />
-          <Transformation  opacity="20" /> */}
       <div className="content">
         <div>
           <Image
