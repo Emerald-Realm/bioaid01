@@ -580,61 +580,53 @@ hr {
   .acct-store .accnt {
     margin: 2vw 0vw;
   }
-}
-
-.guest {
-  margin: 1vw;
-  text-align: center;
-}
-
-.guest-talk {
-  margin: 1rem 0px;
-}
-
-.sign-in {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2rem;
-}
-
-.sign-in .logo-img {
-  width: 30vw;
-  margin: 0px;
-}
-
-.sign-in .content {
-  display: block;
-  border-left: #25795a 2px solid;
-}
-
-.sign-up {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  gap: 10vw;
-  padding: 2rem;
-}
-
-.sign-up .logo-img {
-  width: 30vw;
-  margin: 0px;
-}
-
-.sign-up .signup-form {
-  margin: 0px;
-  width: 80%;
+  .guest {
+    margin: 1vw;
+    text-align: center;
+  }
+  .guest-talk {
+    margin: 1rem 0px;
+  }
+  .sign-in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem;
+  }
+  .sign-in .logo-img {
+    width: 30vw;
+    margin: 0px;
+  }
+  .sign-in .content {
+    display: block;
+    border-left: #25795a 2px solid;
+  }
+  .sign-up {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10vw;
+    padding: 2rem;
+  }
+  .sign-up .logo-img {
+    width: 30vw;
+    margin: 0px;
+  }
+  .sign-up .signup-form {
+    margin: 0px;
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
