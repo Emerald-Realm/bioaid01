@@ -67,7 +67,10 @@ function Interface(props) {
       <div className="instruction">
         <p className="inst">Instruction</p>
         <p>
-          Ensure to <b>Confirm Submit</b> at the end of the page .
+         1: Signin / sign up before taking the exam to recieve your certificate.
+        </p>
+        <p>
+          2: Ensure to <b>Confirm Submit</b> at the end of the page .
         </p>
       </div>
 
